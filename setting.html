@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lifestyle Store-Setting page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<div class="container-fluid main">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-10 offset-lg-3 offset-md-3 offset-1">
+      <div class="card register-header">
+          <h4>setting</h4>
+        <div class="card-body">
+          <form action="">
+            <div class="form-group">
+              <input type="password" class="form-control" name="oldPassword" id="oldPassword" placeholder="old password">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="newPassword" id="newPassword" placeholder="new password">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="confirmNewPassword" id="confirmNewPassword" placeholder="Re-type new password">
+            </div>
+            <button class="btn btn-primary">Change</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer"></div>
+
+<!--bootstrap js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script>
+  jQuery('#navbar').load('includes/navbar_loggedin.html');
+  jQuery('#footer').load('includes/footer.html');
+</script>
+<script src="https://use.fontawesome.com/37bfff5a04.js"></script>
+</body>
+</html>

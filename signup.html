@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lifestyle Store-Signup page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<div class="container-fluid main">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-10 offset-lg-3 offset-md-3 offset-1">
+      <div class="card register-header">
+          <h4>sign up</h4>
+        <div class="card-body">
+          <form action="">
+            <div class="form-group">
+              <input type="name" class="form-control" name="name" id="name" placeholder="name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" id="password" placeholder="password">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" name="contact" id="contact" placeholder="contact">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="city" id="city" placeholder="city">
+            </div>
+            <div class="form-group">
+              <input type="address" class="form-control" name="address" id="address" placeholder="address">
+            </div>
+            <button class="btn btn-shop">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="footer"></div>
+
+<!--bootstrap js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script>
+  jQuery('#navbar').load('includes/navbar.html');
+  jQuery('#footer').load('includes/footer.html');
+</script>
+<script src="https://use.fontawesome.com/37bfff5a04.js"></script>
+</body>
+</html>
