@@ -159,7 +159,7 @@ a:hover{
 
 /* product page css starts */
 .product-container{
-    margin:60px;
+    margin:60px 10px;
 }
 .jumbotron{
     margin-top:80px auto;
